@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: verdana;
+    margin: 30px 0 20px 20%;
+}
+
+#reg {
+    margin-left: 50px;
+    font: 14px Verdana;
+}
+
+#reg input {
+    margin-top: 25px;
+}
+
+input[name=login] {
+    margin-left: 108px;
+}
+
+input[name=password] {
+    margin-left: 81px;
+}
+
+input[name=repeat_password] {
+    margin-left: 25px;
+}
+
+input[name=email] {
+    margin-left: 106px;
+}
+
+.error {
+    display: block;
+    color: red;
+    margin: 20px 0;
+}
+
+#output {
+    margin-left: 50px;
+    font: 14px verdana;
+}
+
+.invalid-data {
+    border: 1px solid red;
+}
+
+#login_used, #email_pattern, #pass_equal {
+    color: red;
+    font: 14px verdana;
+}
+
+

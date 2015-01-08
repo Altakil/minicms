@@ -1,0 +1,5 @@
+соединение с базой в 3 файлах
+core\database.php
+core\login_return.php
+admin\model.php
+login root pass ""(empty)

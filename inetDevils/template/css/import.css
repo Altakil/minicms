@@ -1,0 +1,38 @@
+@font-face {
+    font-family: StMarieThin;
+    src: url("../font/StMarieThin.otf") format("opentype");;
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url("../font/Lobster.otf") format("opentype");;
+}
+
+#formComment input {
+    margin-bottom: 15px;
+    width: 300px;
+    padding: 4px 0;
+}
+
+#formComment label {
+    font: 12px Verdana;
+}
+
+#formComment textarea {
+    margin-bottom: 15px;
+}
+
+#rating label, label {
+    font: 12px verdana;
+    vertical-align: top;
+}
+
+#send, input[name=submit_del] {
+    position: relative;
+    top: -2px;
+    width: 64px;
+}
+
+#del, #rating {
+    display: inline-block;
+}
