@@ -9,7 +9,7 @@ class model
     public function connect()
     {
         $this->db = mysql_connect(self::server, self::USER, self::PASS);
-        mysql_select_db("inetdevils", $this->db);
+        mysql_select_db("database_cms", $this->db);
         mysql_set_charset('utf8');
     }
 
